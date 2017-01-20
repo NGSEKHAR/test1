@@ -1,0 +1,81 @@
+1.git config
+    Example: git config --global user.name "My Name" 
+	     git config --global user.email "user@domain.com" 
+	     cat ~/.gitconfig [user] name = My Name email = user@domain.com
+
+2.git init
+    Example: cd /home/user/my_new_git_folder/ git init
+
+3.git clone
+    Example: git clone git@github.com:user/test.git
+
+4.git add
+    Example: git add .
+
+5.git rm
+    Example: git rm filename
+
+6.git commit
+    Examples: git commit -m ‘committing added changes’ 
+	      git commit -a -m ‘committing all changes, equals to git add and git commit’
+
+7.git status
+    Example: git status # On branch master # # Initial commit # # Untracked files: # 
+	     (use "git add <file>..." to include in what will be committed) 
+ 	     # # README nothing added to commit but untracked files present (use "git add" to track)
+
+8.git branch
+    Example: git branch -a * master remotes/origin/master
+
+9.git checkout
+    Example: git checkout newbranch
+
+10.git merge
+    Example: git merge newbranchversion
+
+11.git reset
+    Example: git reset --hard HEAD
+
+12.git stash
+    Example: git stash Saved working directory and index state "WIP on master: 84f241e first commit" 
+	     HEAD is now at 84f241e first commit (To restore them type "git stash apply")
+
+13.git tag
+    Example: git tag -a v1.0 -m 'this is version 1.0 tag'
+
+14.git fetch
+    Example: git fetch origin
+
+15.git pull
+    Example: git pull origin
+
+16.git push
+    Example: git push origin master
+
+17.git remote
+    Example: git remote origin
+
+18.git log
+    Example: git log commit 84f241e8a0d768fb37ff7ad40e294b61a99a0abe 
+	     Author: User <user@domain.com> Date: Mon May 3 09:24:05 2010 +0300 first commit
+
+19.git show
+    Example: git show commit 84f241e8a0d768fb37ff7ad40e294b61a99a0abe 
+	     Author: User <user@domain.com> 
+	     Date: Mon May 3 09:24:05 2010 +0300 
+	    first commit diff --git a/README b/README new file mode 100644 index 0000000..e69de29
+
+20.git ls-tree
+    Example: git ls-tree master^{tree} 100644 blob e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 README
+
+21.git cat-file
+    Example: git cat-file -t e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 blob
+
+22.git grep
+    Example: git grep "www.siteground.com" -- *.php
+
+23.git diff
+    Example: git diff
+
+24.gitk
+    Example: gitk
